@@ -391,6 +391,9 @@ public class Launcher extends Activity
         }
 
         super.onCreate(savedInstanceState);
+        
+        AppsCustomizePagedView.DISABLE_ALL_APPS = SettingsProvider.getBooleanCustomDefault(this,
+                SettingsProvider.SETTINGS_UI_DRAWER_DISABLE, false);
 
         LauncherAppState.setApplicationContext(getApplicationContext());
         LauncherAppState app = LauncherAppState.getInstance();
@@ -3102,7 +3105,7 @@ public class Launcher extends Activity
         // Shrink workspaces away if going to AppsCustomize from workspace
         Animator workspaceAnim =
                 mWorkspace.getChangeStateAnimation(Workspace.State.SMALL, animated);
-        if (!AppsCustomizePagedView.DISABLE_ALL_APPS) {
+        if (!AppsCustomizePagedView.DISABLE_ALL_APPS || contentType == AppsCustomizePagedView.ContentType.Widgets) {
             // Set the content type for the all apps space
             mAppsCustomizeContent.setContentType(contentType);
         }

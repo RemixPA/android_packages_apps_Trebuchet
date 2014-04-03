@@ -51,6 +51,8 @@
 
     <!-- Drawer -->
     <string name="preferences_interface_drawer_title">应用抽屉</string>
+    <string name="preferences_interface_drawer_disable_drawer_title">禁用应用抽屉</string>
+    <string name="preferences_interface_drawer_disable_drawer_summary">直接显示所有应用在主屏幕上并关闭应用抽屉</string>
 
     <!-- Dock -->
     <string name="preferences_interface_dock_title">托盘</string>

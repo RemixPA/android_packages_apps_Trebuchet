@@ -55,6 +55,8 @@
 
     <!-- Drawer -->
     <string name="preferences_interface_drawer_title">Drawer</string>
+    <string name="preferences_interface_drawer_disable_drawer_title">Disable drawer</string>
+    <string name="preferences_interface_drawer_disable_drawer_summary">Show all apps on homescreen directly instead of in drawer</string>
 
     <!-- Dock -->
     <string name="preferences_interface_dock_title">Dock</string>
