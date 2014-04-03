@@ -51,7 +51,7 @@
 
     <string name="dialog_pick_iconpack_title">Vyberte balíček ikon</string>
     <string name="default_iconpack_title">Výchozí ikony</string>
-    <string name="icon_packs_title">Balíčky ikon</string>
+    <string name="preferences_interface_general_icons_pack_title">Balíčky ikon</string>
     <string name="no_iconpacks_summary">Není nainstalován žádný balíček ikon</string>
 
     <string name="all_apps_cling_cm">Upravit vlastní složku</string>

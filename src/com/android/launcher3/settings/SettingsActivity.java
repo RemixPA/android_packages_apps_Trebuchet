@@ -20,6 +20,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.*;
+import android.preference.Preference.OnPreferenceClickListener;
 import android.text.TextUtils;
 import android.view.MenuItem;
 import android.view.LayoutInflater;
@@ -29,6 +30,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.TextView;
+
+import com.android.launcher3.IconPackHelper;
+import com.android.launcher3.Launcher;
 import com.android.launcher3.R;
 
 import java.util.ArrayList;
@@ -150,6 +154,14 @@ public class SettingsActivity extends PreferenceActivity
             super.onCreate(savedInstanceState);
 
             addPreferencesFromResource(R.xml.preferences_general);
+            Preference iconPack = findPreference("ui_general_icons_iconpack");
+            iconPack.setOnPreferenceClickListener(new OnPreferenceClickListener() {
+                @Override
+                public boolean onPreferenceClick(Preference preference) {
+                    IconPackHelper.pickIconPack(getActivity());
+                    return false;
+                }
+            });
         }
     }
 

@@ -41,7 +41,7 @@
     <string name="preferences_interface_general_icons_text_style_summary">Piktogramos teksto šrifto variantas ir stilius</string>
     <string name="dialog_pick_iconpack_title">Pasirinkite piktogramų paketą</string>
     <string name="default_iconpack_title">Numatytosios piktogramos</string>
-    <string name="icon_packs_title">Piktogramų paketai</string>
+    <string name="preferences_interface_general_icons_pack_title">Piktogramų paketai</string>
     <string name="no_iconpacks_summary">Nėra įdiegta piktogramų paketų</string>
     <string name="all_apps_cling_cm">Tinkinti savo stalčių</string>
     <string name="all_apps_cling_summary">Bakstelėkite puslapio indikatorių norėdami peržiūrėti papildomus konfigūracijos nustatymus</string>

@@ -42,7 +42,7 @@
   <string name="preferences_interface_general_icons_text_style_summary">Variant a štýl písma na použitie pre text ikony</string>
   <string name="dialog_pick_iconpack_title">Vyberte balík ikon</string>
   <string name="default_iconpack_title">Predvolené ikony</string>
-  <string name="icon_packs_title">Balíky ikon</string>
+  <string name="preferences_interface_general_icons_pack_title">Balíky ikon</string>
   <string name="no_iconpacks_summary">Žiadne balíky ikon nie sú nainštalované</string>
   <string name="all_apps_cling_cm">Prispôsobte si vašu ponuku</string>
   <string name="all_apps_cling_summary">Kliknite na ukazovateľ stránky pre zobrazenie ďalších nastavení</string>

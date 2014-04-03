@@ -41,7 +41,7 @@
   <string name="preferences_interface_general_icons_text_style_summary">Variasi dan gaya font untuk diguna pada teks ikon</string>
   <string name="dialog_pick_iconpack_title">Pilih pek ikon</string>
   <string name="default_iconpack_title">Ikon lalai</string>
-  <string name="icon_packs_title">Pek ikon</string>
+  <string name="preferences_interface_general_icons_pack_title">Pek ikon</string>
   <string name="no_iconpacks_summary">Tiada pek ikon dipasang</string>
   <string name="all_apps_cling_cm">Ubahsuai laci anda</string>
   <string name="all_apps_cling_summary">Ketik pada penunjuk laman untuk papar tetapan konfigurasi tambahan</string>

@@ -356,6 +356,31 @@ public class IconPackHelper {
         mIconUpon = null;
         mIconScale = 1f;
     }
+    
+    public static void pickIconPack(final Context context) {
+        Map<String, IconPackInfo> supportedPackages = getSupportedPackages(context);
+        if (supportedPackages.isEmpty()) {
+            Toast.makeText(context, R.string.no_iconpacks_summary, Toast.LENGTH_SHORT).show();
+            return;
+        }
+
+        final IconAdapter adapter = new IconAdapter(context, supportedPackages);
+        AlertDialog.Builder builder = new AlertDialog.Builder(context);
+        builder.setTitle(R.string.dialog_pick_iconpack_title);
+            builder.setAdapter(adapter, new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int position) {
+                    if (adapter.isCurrentIconPack(position)) {
+                        return;
+                    }
+                    String selectedPackage = adapter.getItem(position);
+                    SettingsProvider.putString(context,
+                            SettingsProvider.SETTINGS_UI_GENERAL_ICONS_ICON_PACK, selectedPackage);
+                    LauncherAppState.getInstance().getIconCache().flush();
+                    LauncherAppState.getInstance().getModel().forceReload();
+                }
+            });
+        builder.show().getWindow().getDecorView().setAlpha(0.8f);
+    }
 
     public static void pickIconPack(final Context context, final boolean pickIcon) {
         Map<String, IconPackInfo> supportedPackages = getSupportedPackages(context);

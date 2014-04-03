@@ -42,7 +42,7 @@
   <string name="preferences_interface_general_icons_text_style_summary">Camudar l\'estilu\'l testu pa les etiquetes de los iconos</string>
   <string name="dialog_pick_iconpack_title">Esbillar paquete d\'iconos</string>
   <string name="default_iconpack_title">Iconos por defeutu</string>
-  <string name="icon_packs_title">Paquetes d\'iconos</string>
+  <string name="preferences_interface_general_icons_pack_title">Paquetes d\'iconos</string>
   <string name="no_iconpacks_summary">Nun hai paquetes d\'iconos instalaos</string>
   <string name="all_apps_cling_cm">Personaliza les tos aplicaciones</string>
   <string name="all_apps_cling_summary">Primi l\'indicador de páxina p\'amosar axustes adicionales</string>

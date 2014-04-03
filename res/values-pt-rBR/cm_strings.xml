@@ -41,7 +41,7 @@
     <string name="dialog_pick_iconpack_title">Escolher o pacote de ícones</string>
     <string name="default_iconpack_title">Ícones padrão</string>
     <string name="no_iconpacks_summary">Nenhum pacote de ícones instalado</string>
-    <string name="icon_packs_title">Pacote de ícones</string>
+    <string name="preferences_interface_general_icons_pack_title">Pacote de ícones</string>
     <string name="all_apps_cling_cm">Personalizar sua gaveta de aplicativos</string>
     <string name="all_apps_cling_summary">Toque o indicador desta página para visualizar configurações adicionais</string>
 </resources>

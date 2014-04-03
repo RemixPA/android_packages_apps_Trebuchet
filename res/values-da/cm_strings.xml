@@ -41,7 +41,7 @@
     <string name="preferences_interface_general_icons_text_style_summary">Fontvariant og -stilart til ikontekster</string>
     <string name="dialog_pick_iconpack_title">Vælg ikonpakke</string>
     <string name="default_iconpack_title">Standardikoner</string>
-    <string name="icon_packs_title">Ikonpakker</string>
+    <string name="preferences_interface_general_icons_pack_title">Ikonpakker</string>
     <string name="no_iconpacks_summary">Ingen ikonpakker installeret</string>
     <string name="all_apps_cling_cm">Tilpas din oversigt</string>
     <string name="all_apps_cling_summary">Tryk på sideindikatoren for at vise yderligere konfigurationsindstillinger</string>

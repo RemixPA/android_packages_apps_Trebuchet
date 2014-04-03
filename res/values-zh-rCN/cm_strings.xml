@@ -15,12 +15,8 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Application name -->
-    <string name="cm_application_name" translatable="false">Trebuchet</string>
     <!-- App copyright -->
-    <string name="application_copyright">Extended by RemixPA</string>
-    <!-- App version -->
-    <string name="application_version" translatable="false">1.0</string>
+    <string name="application_copyright">Advanced Trebuchet by RemixPA</string>
 
     <!-- Strings for the customization mode -->
     <!-- Text for sorting mode button -->
@@ -66,13 +62,11 @@
     <string name="preferences_interface_general_icons_large_summary">在主屏幕和抽屉显示更大的图标</string>
     <string name="preferences_interface_general_icons_text_style_title">字体</string>
     <string name="preferences_interface_general_icons_text_style_summary">设置图标文本的字体风格</string>
-    <string name="dialog_pick_iconpack_title">设置图标包</string>
+    <string name="preferences_interface_general_icons_pack_title">图标包</string>
+    <string name="preferences_interface_general_icons_pack_summary">设置应用默认图标的图标包</string>
+    <string name="dialog_pick_iconpack_title">选择图标包</string>
     <string name="default_iconpack_title">默认图标</string>
-    <string name="icon_packs_title">图标包</string>
     <string name="no_iconpacks_summary">未安装图标包</string>
-
-    <!-- Folder titles -->
-    <string name="google_title" translatable="false">Google</string>
 
     <!-- The title text for the all apps cling [CHAR_LIMIT=60] -->
     <string name="all_apps_cling_cm">自定义抽屉</string>

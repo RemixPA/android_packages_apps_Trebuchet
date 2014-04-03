@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/overview_panel_button_spacing"
             android:paddingRight="@dimen/overview_panel_button_spacing"
-            android:text="@string/icon_packs_title"
+            android:text="@string/preferences_interface_general_icons_pack_title"
             android:drawablePadding="4dp"
             android:drawableTop="@drawable/iconpack_button"
             android:gravity="center_horizontal"

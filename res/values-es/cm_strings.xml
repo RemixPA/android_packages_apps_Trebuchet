@@ -42,7 +42,7 @@
   <string name="preferences_interface_general_icons_text_style_summary">Cambiar el estilo de texto para las etiquetas de los iconos</string>
   <string name="dialog_pick_iconpack_title">Escoger paquete de iconos</string>
   <string name="default_iconpack_title">Iconos por defecto</string>
-  <string name="icon_packs_title">Paquetes de iconos</string>
+  <string name="preferences_interface_general_icons_pack_title">Paquetes de iconos</string>
   <string name="no_iconpacks_summary">No hay paquetes de iconos instalados</string>
   <string name="all_apps_cling_cm">Personalizar tus aplicaciones</string>
   <string name="all_apps_cling_summary">Tocar el indicador de página para mostrar ajustes adicionales</string>
