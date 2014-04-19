@@ -42,7 +42,6 @@
   <string name="preferences_interface_general_icons_text_style_summary">Stijl van tekst bij pictogrammen</string>
   <string name="dialog_pick_iconpack_title">Pictogrammenpakket kiezen</string>
   <string name="default_iconpack_title">Standaard</string>
-  <string name="preferences_interface_general_icons_pack_title">Pictogrammenpakketten</string>
   <string name="icon_packs_title">Pictogrammen\npakketten</string>
   <string name="no_iconpacks_summary">Geen pictogrammenpakketten geïnstalleerd</string>
   <string name="all_apps_cling_cm">App-overzicht aanpassen</string>
