@@ -17,24 +17,24 @@
 -->
 <resources>
   <string-array name="preferences_interface_general_icons_text_font_family_entries">
-    <item>常规</item>
-    <item>Light</item>
-    <item>Condensed</item>
+    <item>Įprastas</item>
+    <item>Plonas</item>
+    <item>Suglaustas</item>
   </string-array>
   <string-array name="transition_effect_entries">
-    <item>无</item>
-    <item>放大</item>
-    <item>缩小</item>
-    <item>向上旋转</item>
-    <item>向下旋转</item>
-    <item>立方体内部</item>
-    <item>立方体外部</item>
-    <item>堆叠</item>
-    <item>手风琴</item>
-    <item>翻转</item>
-    <item>圆柱体内部</item>
-    <item>圆柱体外部</item>
-    <item>旋转木马</item>
-    <item>概览</item>
+    <item>Joks</item>
+    <item>Padidinti</item>
+    <item>Pamažinti</item>
+    <item>Pasukti aukštyn</item>
+    <item>Pasukti žemyn</item>
+    <item>Kubo vidus</item>
+    <item>Kubo išorė</item>
+    <item>Krūva</item>
+    <item>Akordeonas</item>
+    <item>Apversti</item>
+    <item>Cilindro vidus</item>
+    <item>Cilindro išorė</item>
+    <item>Karuselė</item>
+    <item>Apžvalga</item>
   </string-array>
 </resources>

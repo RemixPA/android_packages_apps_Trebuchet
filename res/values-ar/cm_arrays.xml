@@ -17,24 +17,24 @@
 -->
 <resources>
   <string-array name="preferences_interface_general_icons_text_font_family_entries">
-    <item>常规</item>
-    <item>Light</item>
-    <item>Condensed</item>
+    <item>العادية</item>
+    <item>فاتح</item>
+    <item>مكثف</item>
   </string-array>
   <string-array name="transition_effect_entries">
-    <item>无</item>
-    <item>放大</item>
-    <item>缩小</item>
-    <item>向上旋转</item>
-    <item>向下旋转</item>
-    <item>立方体内部</item>
-    <item>立方体外部</item>
-    <item>堆叠</item>
-    <item>手风琴</item>
-    <item>翻转</item>
-    <item>圆柱体内部</item>
-    <item>圆柱体外部</item>
-    <item>旋转木马</item>
-    <item>概览</item>
+    <item>لا شيء</item>
+    <item>تكبير</item>
+    <item>تصغير</item>
+    <item>تدوير للأعلى</item>
+    <item>تدوير لأسفل</item>
+    <item>مكعب لداخل</item>
+    <item>مكعب للخارج</item>
+    <item>جميع</item>
+    <item>Accordion</item>
+    <item>لف</item>
+    <item>اسطوانة الداخل</item>
+    <item>اسطوانة الخارج</item>
+    <item>دائري</item>
+    <item>نظرة عامّة</item>
   </string-array>
 </resources>
