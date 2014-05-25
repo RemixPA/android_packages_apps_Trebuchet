@@ -53,6 +53,8 @@
   <string name="preferences_interface_general_icons_large_summary">显示大图标</string>
   <string name="preferences_interface_general_icons_text_style_title">字体样式</string>
   <string name="preferences_interface_general_icons_text_style_summary">图标字体样式</string>
+  <string name="preferences_interface_general_icons_pack_title">图标包</string>
+  <string name="preferences_interface_general_icons_pack_summary">设置应用默认图标的图标包</string>
   <string name="dialog_pick_iconpack_title">选择图标包</string>
   <string name="default_iconpack_title">默认图标</string>
   <string name="icon_packs_title">图标包</string>
